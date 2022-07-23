@@ -1,9 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 img {
@@ -15,7 +13,6 @@ img {
   font-size: 36px;
   font-weight: 900;
 
-  display: block;
   margin: 32px;
 }
 
@@ -34,16 +31,10 @@ img {
 
 .plants {
   display:flex;
+  justify-content: center;
   gap: 52px;
 }
 
 .plant {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   max-width: 200px;
-}
-
-.text {
-  text-align: center;
 }
