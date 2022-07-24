@@ -5,7 +5,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header {
@@ -31,8 +31,10 @@ body {
 }
 
 .sidebar {
-  width: 500px;
   background: royalblue;
+
+  flex-shrink: 0;
+  width:200px;
 }
 
 .card {
@@ -41,10 +43,11 @@ body {
   border-radius: 4px;
 
 
-  max-width: 300px;
+width: 300px;
   padding: 15px;
   margin: 10px;
 }
+
 
 .middle {
   display: flex;
@@ -63,6 +66,8 @@ ul {
 a {
   text-decoration: none;
   color: white;
+
+  font-size: 18px;
 }
 
 .cards {
